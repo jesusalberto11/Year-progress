@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class YearProgressBarComponent {
   @Input() currentDayPercentaje?: number;
+  currentYear = new Date().getFullYear();
 
   getProgressBarClass(currentDayPercentaje: number): string {
     if (currentDayPercentaje < 30) {

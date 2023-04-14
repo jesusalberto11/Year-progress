@@ -1,5 +1,5 @@
 <div class="container">
-  <p>2023</p>
+  <p>{{ currentYear }}</p>
   <div class="progress-bar-container">
     <div
       class="progress-bar"
@@ -7,5 +7,5 @@
       [ngClass]="getProgressBarClass(currentDayPercentaje || 0)"
     ></div>
   </div>
-  <p>2024</p>
+  <p>{{ currentYear + 1 }}</p>
 </div>
