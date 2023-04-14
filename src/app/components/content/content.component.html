@@ -1,0 +1,21 @@
+<div class="content">
+  <div class="current-year-container">
+    <p class="current-year">{{ currentYear }}</p>
+  </div>
+
+  <h3>
+    El porcentaje actual del año es del
+    <span class="current-day-percentaje">{{ currentDayPercentaje }}%</span>
+  </h3>
+
+  <app-year-progress-bar [currentDayPercentaje]="currentDayPercentaje || 0">
+  </app-year-progress-bar>
+
+  <h3>
+    Hoy es {{ currentDate }}, aún te quedan {{ remainingDays }} dias antes de
+    que se acabe el año
+  </h3>
+  <h3>
+    Aprovecha bien tu tiempo, ya que cuando quieras ver, se habrá ido volando
+  </h3>
+</div>
