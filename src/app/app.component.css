@@ -1,15 +1,30 @@
-.main-content {
+.app-container {
   height: 100vh;
   width: 100vw;
 
   background-color: #f8f7ff;
   color: #000;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+  display: grid;
+  grid-template-rows: 30px 1fr 30px;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+}
+
+.app-header {
+  grid-area: header;
+}
+
+.main-content {
+  grid-area: content;
+  background-color: blue;
+}
+
+.app-footer {
+  grid-area: footer;
+  background-color: brown;
 }
 
 .current-year-container {

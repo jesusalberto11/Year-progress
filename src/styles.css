@@ -7,3 +7,9 @@
 body {
   font-family: "PT Sans", sans-serif;
 }
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
