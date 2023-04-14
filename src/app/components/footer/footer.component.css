@@ -1,0 +1,36 @@
+.footer {
+  gap: 20px;
+}
+
+.linkedin-band,
+.github-band {
+  cursor: pointer;
+
+  height: 28px;
+  width: 111px;
+
+  color: #fff;
+  font-size: smaller;
+  letter-spacing: 0.1em;
+
+  gap: 10px;
+
+  text-decoration: none;
+}
+
+.linkedin-band:hover,
+.github-band:hover {
+  box-shadow: 0 0 5px red, 0 0 5px blue, 0 0 10px red;
+}
+
+.linkedin-band {
+  background-color: #0077b5;
+}
+
+.github-band {
+  background-color: #0d1117;
+}
+
+.github-img {
+  filter: invert(1);
+}
