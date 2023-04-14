@@ -7,6 +7,7 @@ import { YearProgressBarComponent } from './components/year-progress-bar/year-pr
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ContentComponent } from './components/content/content.component';
+import { MessagesComponent } from './components/messages/messages.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContentComponent } from './components/content/content.component';
     YearProgressBarComponent,
     FooterComponent,
     HeaderComponent,
-    ContentComponent
+    ContentComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,

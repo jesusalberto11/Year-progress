@@ -4,12 +4,25 @@
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
-  gap: 15px;
+  gap: 50px;
+}
+
+.current-year-percentaje-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .current-year-container {
+  max-height: 200px;
+
   max-width: 600px;
   min-width: 200px;
 
@@ -20,11 +33,21 @@
 
 .current-year {
   letter-spacing: 15px;
-  font-size: 15vw;
+  font-size: 12vw;
 
   background-image: linear-gradient(to right, #9381ff, #b8b8ff);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.remaining-days {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .current-year {
+    font-size: 12vh;
+  }
 }
