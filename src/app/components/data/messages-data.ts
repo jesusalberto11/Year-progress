@@ -1,0 +1,18 @@
+export const MESSAGES: string[] = [
+  'Tarde o temprano va a pasar 10 años, la pregunta es, cuando llegue ese momento vas a decir: ¿10 años y no lo he terminado? O te vas a mirar al espejo orgulloso de que te costó, pero lo lograste.',
+  'El tiempo no espera por nadie, así que no esperes para hacer lo que realmente quieres hacer.',
+  'El tiempo es un recurso limitado, no lo desaproveches. Aprovecha cada momento para hacer lo que amas.',
+  'La vida es corta, no pierdas el tiempo en cosas que no te importan. Invierte tu tiempo en lo que te hace feliz.',
+  'El tiempo es tu recurso más valioso, úsalo sabiamente y lograrás todo lo que te propongas.',
+  'La luna no está hecha de queso.',
+  'El tiempo es oro, pero no lo podemos acumular. Aprovechémoslo al máximo junto a las personas que más amamos.',
+  'No malgastemos el tiempo en cosas sin importancia, mejor dediquémonos a construir recuerdos inolvidables junto a nuestros seres queridos.',
+  'El tiempo es un bien precioso, por eso debemos asegurarnos de no desperdiciarlo y disfrutar cada instante junto a nuestros seres queridos.',
+  'El tiempo no es una excusa para no estar con nuestros seres queridos, es una oportunidad para crear momentos que nunca olvidaremos.',
+  'El pasado y el futuro no existen, no les des tanta importancia, el unico lugar que existe es el ahora.',
+  'La idea es que cuando llegue el momento de mirar hacia atrás, podamos sentirnos orgullosos de haber logrado lo que nos propusimos, a pesar de las dificultades que hayamos enfrentado en el camino.',
+  'No malgastes tu tiempo en arrepentimientos y lamentos. Aprovecha cada momento para hacer algo constructivo',
+  'No esperes a nadie, ve y hazlo por tu cuenta.',
+  '¿Te quedaste leyendo todos los mensajes?',
+  'No hay más por el momento, puedes irte a aprovechar tu tiempo 😊.',
+];
