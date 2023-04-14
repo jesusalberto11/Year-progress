@@ -9,8 +9,13 @@
   margin-right: 15px;
 
   text-align: center;
+  font-size: medium;
 
   max-width: 800px;
+
+  border-style: dotted;
+  border-width: 2px;
+  border-image: linear-gradient(to right, #9381ff, #b8b8ff, blue) 1;
 }
 
 @keyframes slide-in {
