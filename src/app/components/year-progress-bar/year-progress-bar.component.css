@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.progress-bar-container {
+  width: 70vw;
+  height: 20px;
+  background-color: #e3f2fd;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  line-height: 20px;
+  text-align: center;
+  background-color: #2a9d8f;
+  border-radius: 10px;
+}
+
+.bg-danger {
+  background-image: linear-gradient(to right, #9381ff, #b8b8ff);
+}

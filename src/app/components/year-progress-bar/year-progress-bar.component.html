@@ -1,0 +1,11 @@
+<div class="container">
+  <p>2023</p>
+  <div class="progress-bar-container">
+    <div
+      class="progress-bar"
+      [ngStyle]="{ width: currentDayPercentaje?.toString() + '%' }"
+      [ngClass]="getProgressBarClass(currentDayPercentaje || 0)"
+    ></div>
+  </div>
+  <p>2024</p>
+</div>

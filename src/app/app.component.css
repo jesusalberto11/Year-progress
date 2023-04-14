@@ -1,0 +1,33 @@
+.main-content {
+  height: 100vh;
+  width: 100vw;
+
+  background-color: #f8f7ff;
+  color: #000;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.current-year-container {
+  max-width: 600px;
+  min-width: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.current-year {
+  letter-spacing: 15px;
+  font-size: 10vw;
+
+  background-image: linear-gradient(to right, #9381ff, #b8b8ff);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
