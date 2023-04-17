@@ -1,27 +1,119 @@
-# YearProgress
+<div align="center">
+  <h1>Year Progress</h1>
+  <a href="https://year-progress-99b19.web.app/" target="_blank" rel="”noreferrer”">Click here to see the project live</a>
+</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+<!-- Table of Contents -->
 
-## Development server
+# :notebook_with_decorative_cover: Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [About the Project](#star2-about-the-project)
+  - [Screenshots](#camera-screenshots)
+  - [Tech Stack](#space_invader-tech-stack)
+- [Getting Started](#toolbox-getting-started)
+  - [Prerequisites](#bangbang-prerequisites)
+  - [Installation and Run Locally](#running-installation-and-run-locally)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [Contributing](#wave-contributing)
+- [Contact](#handshake-contact)
+- [Acknowledgements](#gem-acknowledgements)
 
-## Code scaffolding
+<!-- About the Project -->
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## :star2: About the Project
 
-## Build
+This is project is a client side web page, created using:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<li><a href="https://angular.io"/>Angular</a></li>
+<li><a>Firebase</a></li>
 
-## Running unit tests
+<!-- Screenshots -->
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### :camera: Screenshots
 
-## Running end-to-end tests
+<div align="center"> 
+  <img src="https://github.com/jesusalberto11/Year-progress/tree/main/src/assets/year_progress_1.png" alt="App_Image_1"/>
+</div>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<!-- TechStack -->
 
-## Further help
+## :space_invader: Tech Stack
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<li><a href="https://angular.io"/>Angular</a></li>
+<li><a>Firebase</a></li>
+
+<!-- Getting Started -->
+
+## :toolbox: Getting Started
+
+<!-- Prerequisites -->
+
+### :bangbang: Prerequisites
+
+- To run this project you need:
+  - NodeJS
+  - Angular CLI (Min. Ver. 15.2.6)
+
+Once you have that, you're ready to go
+
+<!-- Installation and Run Locally -->
+
+### :running: Installation and Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/jesusalberto11/Year-progress
+```
+
+Go to the project directory
+
+```bash
+  cd Year-progress
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the development server
+
+```bash
+  ng serve
+```
+
+<!-- Deployment -->
+
+### :triangular_flag_on_post: Deployment
+
+To deploy this project run
+
+```bash
+  ng build
+```
+
+<!-- Contributing -->
+
+## :wave: Contributing
+
+<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
+</a>
+
+Contributions are always welcome!
+
+Please send a message if you're interested in contributing to the proyect.
+
+<!-- Contact -->
+
+## :handshake: Contact
+
+Jesus Alberto - [@LinkedIn](https://www.linkedin.com/in/jesus-alberto-morales-rico-7092a9227/)
+
+<!-- Acknowledgments -->
+
+## :gem: Acknowledgements
+
+This project helped me understand the basic management of Angular, I learned how to create and reuse components, work with time variables, and learn more about responsive design.
