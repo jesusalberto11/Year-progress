@@ -32,7 +32,7 @@ This is project is a client side web page, created using:
 ### :camera: Screenshots
 
 <div align="center"> 
-  <img src="https://github.com/jesusalberto11/Year-progress/tree/main/src/assets/year_progress_1.png" alt="App_Image_1"/>
+  <img src="https://github.com/jesusalberto11/Year-progress/blob/main/src/assets/year_progress_1.png" alt="App_Image_1"/>
 </div>
 
 <!-- TechStack -->
