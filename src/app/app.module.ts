@@ -13,6 +13,7 @@ import { ThemeToggleComponent } from './components/theme-toggle/theme-toggle.com
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { LanguageSelectorComponent } from './components/language-selector/language-selector.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -27,6 +28,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ContentComponent,
     MessagesComponent,
     ThemeToggleComponent,
+    LanguageSelectorComponent,
   ],
   imports: [
     BrowserModule,

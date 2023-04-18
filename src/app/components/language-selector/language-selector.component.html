@@ -1,0 +1,14 @@
+<div class="language-selector-container centered">
+  <label>
+    {{ "SETTINGS.SWITCH_LANGUAGE" | translate }}
+    <select #langSelect (change)="changeCurrentLanguage(langSelect.value)">
+      <option
+        *ngFor="let lang of translate.getLangs()"
+        [value]="lang"
+        [selected]="lang === currentLanguage"
+      >
+        {{ lang | uppercase }}
+      </option>
+    </select>
+  </label>
+</div>

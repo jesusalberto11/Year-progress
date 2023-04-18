@@ -1,0 +1,13 @@
+.language-selector-container {
+  height: 28px;
+  width: 131px;
+
+  background-color: var(--toggle-theme-button-color);
+  color: var(--toggle-theme-text-color);
+  font-size: smaller;
+  letter-spacing: 0.1em;
+
+  gap: 10px;
+
+  text-decoration: none;
+}
