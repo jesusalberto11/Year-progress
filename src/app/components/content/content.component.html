@@ -5,7 +5,7 @@
     </div>
 
     <h3>
-      El porcentaje actual del año es del
+      {{ "HOME.YEAR_CURRENT_PERCENTAJE" | translate }}
       <span class="current-day-percentaje">{{ currentDayPercentaje }}%.</span>
     </h3>
 
@@ -13,8 +13,10 @@
     </app-year-progress-bar>
 
     <h3 class="remaining-days">
-      Hoy es {{ currentDate }}, aún quedan {{ remainingDays }} dias antes de que
-      se acabe el año.
+      {{ "HOME.REMAINING_DAYS_TEXT_1" | translate }} {{ currentDay }}
+      {{ "HOME.REMAINING_DAYS_TEXT_2" | translate }} {{ currentMonth }},
+      {{ "HOME.REMAINING_DAYS_TEXT_3" | translate }} {{ remainingDays }}
+      {{ "HOME.REMAINING_DAYS_TEXT_4" | translate }}
     </h3>
   </div>
   <app-messages></app-messages>

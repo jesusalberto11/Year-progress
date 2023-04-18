@@ -2,8 +2,8 @@
   <button class="toggle-theme-button" (click)="changeTheme()">
     {{
       this.currentTheme === "light-theme"
-        ? "Activar modo oscuro 🌙"
-        : "Activar modo claro ☀️"
+        ? ("SETTINGS.SWITCH_TO_DARK_MODE" | translate)
+        : ("SETTINGS.SWITCH_TO_LIGHT_MODE" | translate)
     }}
   </button>
 </div>

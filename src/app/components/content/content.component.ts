@@ -1,20 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
   styleUrls: ['./content.component.css'],
 })
-export class ContentComponent {
+export class ContentComponent implements OnInit {
   currentYear: number = new Date().getFullYear();
+  currentDay: number = new Date().getDate();
+  currentMonth: string = '';
+
+  ngOnInit(): void {
+    let currentLanguaje = localStorage.getItem('app_languaje')?.toString();
+    this.currentMonth = new Date().toLocaleString(currentLanguaje, {
+      month: 'long',
+    });
+  }
 
   actualDate = new Date();
-  navigatorLocale = [navigator.language];
-  dateOptions = { month: 'long', day: 'numeric' } as const;
-  currentDate = this.actualDate.toLocaleDateString(
-    this.navigatorLocale,
-    this.dateOptions
-  );
 
   currentDayInMiliseconds = this.actualDate.getTime();
   firstDayOfTheYearInMiliseconds = new Date(
