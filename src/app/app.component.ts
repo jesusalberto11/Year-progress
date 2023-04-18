@@ -16,10 +16,11 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.checkForTheme();
-    this.checkForCurrentLanguaje();
+    this.addLanguages();
+    this.checkForCurrentLanguage();
   }
 
-  checkForCurrentLanguaje(): void {
+  addLanguages(): void {
     this.translateService.addLangs([
       'en',
       'es',
@@ -30,7 +31,9 @@ export class AppComponent implements OnInit {
       'zh',
       'ru',
     ]);
+  }
 
+  checkForCurrentLanguage(): void {
     let currentNavigatorLanguage = navigator.language.substring(0, 2);
     let appLanguage = this.translateService
       .getLangs()
@@ -39,7 +42,7 @@ export class AppComponent implements OnInit {
       : 'en';
 
     this.translateService.setDefaultLang(appLanguage);
-    localStorage.setItem('app_languaje', appLanguage);
+    localStorage.setItem('app_language', appLanguage);
   }
 
   checkForTheme(): void {
