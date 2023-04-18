@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ContentComponent } from './components/content/content.component';
 import { MessagesComponent } from './components/messages/messages.component';
+import { ThemeToggleComponent } from './components/theme-toggle/theme-toggle.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MessagesComponent } from './components/messages/messages.component';
     FooterComponent,
     HeaderComponent,
     ContentComponent,
-    MessagesComponent
+    MessagesComponent,
+    ThemeToggleComponent
   ],
   imports: [
     BrowserModule,
