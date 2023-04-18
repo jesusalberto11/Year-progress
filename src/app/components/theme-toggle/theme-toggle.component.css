@@ -1,0 +1,24 @@
+.toggle-theme-button {
+  cursor: pointer;
+
+  height: 28px;
+  width: 222px;
+
+  background-color: var(--toggle-theme-button-color);
+  color: var(--toggle-theme-text-color);
+
+  font-size: smaller;
+  letter-spacing: 0.1em;
+  text-align: center;
+
+  text-decoration: none;
+  border: none;
+}
+
+.toggle-theme-button:hover {
+  box-shadow: 0 0 5px red, 0 0 5px blue, 0 0 10px red;
+}
+
+.toggle-theme-container {
+  border: none;
+}

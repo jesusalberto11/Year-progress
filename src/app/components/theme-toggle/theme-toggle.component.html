@@ -1,1 +1,9 @@
-<p>theme-toggle works!</p>
+<div class="toggle-theme-container centered">
+  <button class="toggle-theme-button" (click)="changeTheme()">
+    {{
+      this.currentTheme === "light-theme"
+        ? "Activar modo oscuro 🌙"
+        : "Activar modo claro ☀️"
+    }}
+  </button>
+</div>
