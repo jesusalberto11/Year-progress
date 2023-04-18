@@ -1,5 +1,6 @@
 .footer {
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .linkedin-band,
