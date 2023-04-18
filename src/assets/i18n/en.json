@@ -1,0 +1,13 @@
+{
+  "HOME": {
+    "YEAR_CURRENT_PERCENTAJE": "The current percentaje of the year its",
+    "REMAINING_DAYS_TEXT_1": "Today its",
+    "REMAINING_DAYS_TEXT_2": "of",
+    "REMAINING_DAYS_TEXT_3": "still left",
+    "REMAINING_DAYS_TEXT_4": "days before the year ends."
+  },
+  "SETTINGS": {
+    "SWITCH_TO_DARK_MODE": "Turn on dark mode🌙",
+    "SWITCH_TO_LIGHT_MODE": "Turn on light mode ☀️"
+  }
+}
