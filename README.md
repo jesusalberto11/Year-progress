@@ -22,7 +22,7 @@
 
 ## :star2: About the Project
 
-This is project is a client side web page, created using:
+This is project is a client side web page and its translated to 8 languages (English, Spanish, French, German, Japanese, Korean, Chinese, Russian), created using:
 
 <li><a href="https://angular.io"/>Angular</a></li>
 <li><a>Firebase</a></li>
@@ -41,9 +41,10 @@ This is project is a client side web page, created using:
 
 ## :space_invader: Tech Stack
 
-<li><a href="https://angular.io"/>Angular</a></li>
+<li><a href="https://angular.io" target="_blank"/>Angular</a></li>
 <li><a>Firebase</a></li>
 <li><a>Light and Dark Themes</a></li>
+<li><a href="https://github.com/ngx-translate/core" target="_blank">ngx-translate</a></li>
 
 <!-- Getting Started -->
 
@@ -119,4 +120,4 @@ Jesus Alberto - [@LinkedIn](https://www.linkedin.com/in/jesus-alberto-morales-ri
 
 ## :gem: Acknowledgements
 
-This project helped me understand the basic management of Angular, I learned how to create and reuse components, work with time variables, and learn more about responsive design.
+This project helped me understand the basic management of Angular, I learned how to create and reuse components, work with time variables, work with custom themening, learn more about responsive design and learned how to trasnlate my app to differente languages.
