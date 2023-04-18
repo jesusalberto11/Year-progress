@@ -1,5 +1,6 @@
 import { Component, OnInit, Inject, Renderer2 } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -9,11 +10,27 @@ import { DOCUMENT } from '@angular/common';
 export class AppComponent implements OnInit {
   constructor(
     @Inject(DOCUMENT) private document: Document,
-    private renderer: Renderer2
+    private renderer: Renderer2,
+    private translateService: TranslateService
   ) {}
 
   ngOnInit(): void {
     this.checkForTheme();
+    this.checkForCurrentLanguaje();
+  }
+
+  checkForCurrentLanguaje(): void {
+    this.translateService.addLangs(['es', 'en', 'ko']);
+
+    let currentNavigatorLanguage = navigator.language.substring(0, 2);
+    let appLanguage = this.translateService
+      .getLangs()
+      .includes(currentNavigatorLanguage)
+      ? currentNavigatorLanguage
+      : 'en';
+
+    this.translateService.setDefaultLang(appLanguage);
+    localStorage.setItem('app_languaje', appLanguage);
   }
 
   checkForTheme(): void {
