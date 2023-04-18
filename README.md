@@ -33,6 +33,8 @@ This is project is a client side web page, created using:
 
 <div align="center"> 
   <img src="https://github.com/jesusalberto11/Year-progress/blob/main/src/assets/year_progress_1.png" alt="App_Image_1"/>
+  <hr>
+  <img src="https://github.com/jesusalberto11/Year-progress/blob/main/src/assets/year_progress_2.png" alt="App_Image_2"/>
 </div>
 
 <!-- TechStack -->
@@ -41,6 +43,7 @@ This is project is a client side web page, created using:
 
 <li><a href="https://angular.io"/>Angular</a></li>
 <li><a>Firebase</a></li>
+<li><a>Light and Dark Themes</a></li>
 
 <!-- Getting Started -->
 
