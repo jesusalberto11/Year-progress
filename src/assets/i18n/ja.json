@@ -1,0 +1,13 @@
+{
+  "HOME": {
+    "YEAR_CURRENT_PERCENTAJE": "今年の現在の割合は",
+    "REMAINING_DAYS_TEXT_1": "今日は",
+    "REMAINING_DAYS_TEXT_2": "年のうち",
+    "REMAINING_DAYS_TEXT_3": "残り",
+    "REMAINING_DAYS_TEXT_4": "日です。"
+  },
+  "SETTINGS": {
+    "SWITCH_TO_DARK_MODE": "ダークモードに切り替える🌙",
+    "SWITCH_TO_LIGHT_MODE": "ライトモードに切り替える☀️"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "HOME": {
+    "YEAR_CURRENT_PERCENTAJE": "Der aktuelle Prozentsatz des Jahres ist",
+    "REMAINING_DAYS_TEXT_1": "Heute ist der",
+    "REMAINING_DAYS_TEXT_2": "von",
+    "REMAINING_DAYS_TEXT_3": "noch übrig",
+    "REMAINING_DAYS_TEXT_4": "Tage bis zum Ende des Jahres."
+  },
+  "SETTINGS": {
+    "SWITCH_TO_DARK_MODE": "Dunklen Modus einschalten 🌙",
+    "SWITCH_TO_LIGHT_MODE": "Hellmodus einschalten ☀️"
+  }
+}

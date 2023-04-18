@@ -20,7 +20,16 @@ export class AppComponent implements OnInit {
   }
 
   checkForCurrentLanguaje(): void {
-    this.translateService.addLangs(['es', 'en', 'ko']);
+    this.translateService.addLangs([
+      'en',
+      'es',
+      'fr',
+      'de',
+      'ja',
+      'ko',
+      'zh',
+      'ru',
+    ]);
 
     let currentNavigatorLanguage = navigator.language.substring(0, 2);
     let appLanguage = this.translateService

@@ -1,0 +1,13 @@
+{
+  "HOME": {
+    "YEAR_CURRENT_PERCENTAJE": "当年的当前百分比为",
+    "REMAINING_DAYS_TEXT_1": "今天是",
+    "REMAINING_DAYS_TEXT_2": "/",
+    "REMAINING_DAYS_TEXT_3": "还剩下",
+    "REMAINING_DAYS_TEXT_4": "天才到年底"
+  },
+  "SETTINGS": {
+    "SWITCH_TO_DARK_MODE": "开启深色模式🌙",
+    "SWITCH_TO_LIGHT_MODE": "开启浅色模式☀️"
+  }
+}
