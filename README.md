@@ -22,7 +22,7 @@
 
 ## :star2: About the Project
 
-This is project is a client side web page and its translated to 8 languages (English, Spanish, French, German, Japanese, Korean, Chinese, Russian), created using:
+This is project is a client side web page,it shows you the current percentaje of the year and the remaining days until its next year and its translated to 8 languages (English, Spanish, French, German, Japanese, Korean, Chinese, Russian), created using:
 
 <li><a href="https://angular.io"/>Angular</a></li>
 <li><a>Firebase</a></li>
