@@ -14,6 +14,10 @@ body {
   justify-content: center;
 }
 
+.theme-transition-effect {
+  transition: background-color 0.5s ease;
+}
+
 .light-theme {
   --background-color: #f8f7ff;
   --text-color: #000;
@@ -28,6 +32,9 @@ body {
   --messages-border-first-color: #9381ff;
   --messages-border-second-color: #b8b8ff;
   --messages-border-third-color: #0000ff;
+
+  --toggle-theme-button-color: #03071e;
+  --toggle-theme-text-color: #fff;
 }
 
 .dark-theme {
@@ -44,4 +51,7 @@ body {
   --messages-border-first-color: #38a3a5;
   --messages-border-second-color: #22577a;
   --messages-border-third-color: #b9fbc0;
+
+  --toggle-theme-button-color: #f8f7ff;
+  --toggle-theme-text-color: #000;
 }
