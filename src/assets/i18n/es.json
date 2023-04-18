@@ -8,6 +8,7 @@
   },
   "SETTINGS": {
     "SWITCH_TO_DARK_MODE": "Activar modo oscuro 🌙",
-    "SWITCH_TO_LIGHT_MODE": "Activar modo claro ☀️"
+    "SWITCH_TO_LIGHT_MODE": "Activar modo claro ☀️",
+    "SWITCH_LANGUAGE": "Idioma"
   }
 }

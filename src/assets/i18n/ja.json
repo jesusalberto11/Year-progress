@@ -8,6 +8,7 @@
   },
   "SETTINGS": {
     "SWITCH_TO_DARK_MODE": "ダークモードに切り替える🌙",
-    "SWITCH_TO_LIGHT_MODE": "ライトモードに切り替える☀️"
+    "SWITCH_TO_LIGHT_MODE": "ライトモードに切り替える☀️",
+    "SWITCH_LANGUAGE": "言語"
   }
 }

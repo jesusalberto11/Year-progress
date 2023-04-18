@@ -8,6 +8,7 @@
   },
   "SETTINGS": {
     "SWITCH_TO_DARK_MODE": "开启深色模式🌙",
-    "SWITCH_TO_LIGHT_MODE": "开启浅色模式☀️"
+    "SWITCH_TO_LIGHT_MODE": "开启浅色模式☀️",
+    "SWITCH_LANGUAGE": "语言"
   }
 }

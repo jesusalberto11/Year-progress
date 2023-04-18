@@ -8,6 +8,7 @@
   },
   "SETTINGS": {
     "SWITCH_TO_DARK_MODE": "Dunklen Modus einschalten 🌙",
-    "SWITCH_TO_LIGHT_MODE": "Hellmodus einschalten ☀️"
+    "SWITCH_TO_LIGHT_MODE": "Hellmodus einschalten ☀️",
+    "SWITCH_LANGUAGE": "Sprache"
   }
 }

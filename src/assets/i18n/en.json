@@ -7,7 +7,8 @@
     "REMAINING_DAYS_TEXT_4": "days before the year ends."
   },
   "SETTINGS": {
-    "SWITCH_TO_DARK_MODE": "Turn on dark mode🌙",
-    "SWITCH_TO_LIGHT_MODE": "Turn on light mode ☀️"
+    "SWITCH_TO_DARK_MODE": "Turn on dark mode 🌙",
+    "SWITCH_TO_LIGHT_MODE": "Turn on light mode ☀️",
+    "SWITCH_LANGUAGE": "Language"
   }
 }
