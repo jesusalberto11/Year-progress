@@ -11,8 +11,8 @@ export class ContentComponent implements OnInit {
   currentMonth: string = '';
 
   ngOnInit(): void {
-    let currentLanguaje = localStorage.getItem('app_languaje')?.toString();
-    this.currentMonth = new Date().toLocaleString(currentLanguaje, {
+    let currentLanguage = localStorage.getItem('app_languaje')?.toString();
+    this.currentMonth = new Date().toLocaleString(currentLanguage, {
       month: 'long',
     });
   }
