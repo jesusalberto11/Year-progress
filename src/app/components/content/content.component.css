@@ -35,7 +35,11 @@
   letter-spacing: 15px;
   font-size: 12vw;
 
-  background-image: linear-gradient(to right, #9381ff, #b8b8ff);
+  background-image: linear-gradient(
+    to right,
+    var(--current-year-first-color),
+    var(--current-year-second-color)
+  );
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -9,7 +9,7 @@
 .progress-bar-container {
   width: 70vw;
   height: 20px;
-  background-color: #e3f2fd;
+  background-color: var(--progress-bar-background-color);
   border-radius: 10px;
 }
 
@@ -17,10 +17,11 @@
   height: 100%;
   line-height: 20px;
   text-align: center;
-  background-color: #2a9d8f;
-  border-radius: 10px;
-}
+  background-image: linear-gradient(
+    to right,
+    var(--progress-bar-first-color),
+    var(--progress-bar-second-color)
+  );
 
-.bg-danger {
-  background-image: linear-gradient(to right, #9381ff, #b8b8ff);
+  border-radius: 10px;
 }
