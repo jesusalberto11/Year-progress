@@ -1,1 +1,9 @@
-<div class="message-container">{{ currentMessage }}</div>
+<div class="container centered">
+  <div class="message-container">{{ currentMessage }}</div>
+  <div class="message-progress-bar-container">
+    <div
+      class="message-progress-bar"
+      [ngStyle]="{ width: currentTimeUntilNextMessage.toString() + '%' }"
+    ></div>
+  </div>
+</div>

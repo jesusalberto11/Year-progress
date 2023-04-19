@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
-import { interval } from 'rxjs';
+import { timer } from 'rxjs';
 import { MESSAGES } from '../data/messages-data';
 
 @Component({
@@ -11,8 +11,9 @@ import { MESSAGES } from '../data/messages-data';
 export class MessagesComponent implements OnInit {
   currentMessage: string =
     'Aprovecha bien tu tiempo, ya que cuando quieras ver, se habrá ido volando';
-  currentLanguage = 'es';
+  currentLanguage: string = 'es';
   currentIndex: number = -1;
+  currentTimeUntilNextMessage: number = 0;
 
   constructor(private translateService: TranslateService) {
     this.translateService.onLangChange.subscribe((event: LangChangeEvent) => {
@@ -22,13 +23,10 @@ export class MessagesComponent implements OnInit {
   }
 
   ngOnInit() {
-    const intervalo = interval(10000);
     this.currentLanguage = localStorage.getItem('app_language')!;
     this.updateCurrentMessage();
 
-    intervalo.subscribe(() => {
-      this.updateCurrentMessage();
-    });
+    timer(0, 100).subscribe((n) => this.updateTimeUntilNextMessage(n));
   }
 
   updateCurrentMessage(): void {
@@ -42,5 +40,15 @@ export class MessagesComponent implements OnInit {
 
     this.currentIndex = newIndex;
     this.currentMessage = messageArray[this.currentIndex];
+  }
+
+  updateTimeUntilNextMessage(timer: number): void {
+    let seconds = (timer % 100) / 10;
+
+    if (seconds % 100 === 0) {
+      this.updateCurrentMessage();
+    }
+
+    this.currentTimeUntilNextMessage = seconds * 10;
   }
 }
