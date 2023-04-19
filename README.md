@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Year Progress</h1>
-  <a href="https://year-progress-99b19.web.app/" target="_blank" rel="”noreferrer”">Click here to see the project live</a>
+  <a href="https://year-progress-99b19.web.app/" target="_blank" rel="noreferrer">Click here to see the project live</a>
 </div>
 
 <!-- Table of Contents -->
@@ -35,6 +35,10 @@ This is project is a client side web page,it shows you the current percentaje of
   <img src="https://github.com/jesusalberto11/Year-progress/blob/main/src/assets/year_progress_1.png" alt="App_Image_1"/>
   <hr>
   <img src="https://github.com/jesusalberto11/Year-progress/blob/main/src/assets/year_progress_2.png" alt="App_Image_2"/>
+  <hr>
+  <img src="https://github.com/jesusalberto11/Year-progress/blob/main/src/assets/year_progress_3.png" alt="App_Image_3"/>
+  <hr>
+  <img src="https://github.com/jesusalberto11/Year-progress/blob/main/src/assets/year_progress_4.png" alt="App_Image_4"/>
 </div>
 
 <!-- TechStack -->
