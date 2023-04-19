@@ -35,6 +35,11 @@ body {
 
   --toggle-theme-button-color: #03071e;
   --toggle-theme-text-color: #fff;
+
+  --message-progress-bar-background-color: #e3f2fd;
+  --message-progress-bar-first-color: #9381ff;
+  --message-progress-bar-second-color: #7209b7;
+  --message-progress-bar-third-color: #f72585;
 }
 
 .dark-theme {
@@ -54,4 +59,9 @@ body {
 
   --toggle-theme-button-color: #f8f7ff;
   --toggle-theme-text-color: #000;
+
+  --message-progress-bar-background-color: #e3f2fd;
+  --message-progress-bar-first-color: #22577a;
+  --message-progress-bar-second-color: #57cc99;
+  --message-progress-bar-third-color: #7209b7;
 }
